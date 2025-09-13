@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire - Battle in Style</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #ffcc00;
+        }
+
+        .header-icons .icon {
+            margin-left: 15px;
+            font-size: 20px;
+        }
+
+        .hero {
+            position: relative;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #fff;
+        }
+
+        .hero-text h1 span {
+            color: #ffcc00;
+        }
+
+        .hero-text p {
+            font-size: 24px;
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        .play-button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .latest-news, .features, .special-event, .esports {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .latest-news h2, .esports h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .news-item, .feature-item, .esports-item {
+            margin-bottom: 20px;
+        }
+
+        .news-item img, .feature-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .news-content h3, .feature-content h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .view-all {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        .special-event img {
+            width: 100%;
+            height: auto;
+        }
+
+        .event-content h3 {
+            font-size: 32px;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .footer-logo {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* New Styles for Additional Videos */
+        .extra-videos {
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .extra-videos video {
+            width: 30%;
+            margin: 0 1.5%;
+            height: auto;
+            vertical-align: middle;
+        }
+
+        /* Music Control Styles */
+        .music-control {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">FREE<span>FIRE</span></div>
+        <div class="header-icons">
+            <span class="icon">🛒</span>
+            <span class="icon">🌐</span>
+            <span class="icon">≡</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="/cf9b593d36ccc126acf2ac5537537cbe.jpg" alt="Free Fire Heroes" class="hero-image">
+        <div class="hero-text">
+            <h1>FREE<span>FIRE</span></h1>
+            <p>BATTLE IN STYLE</p>
+            <button class="play-button">FREE TO PLAY</button>
+        </div>
+    </section>
+
+    <section class="latest-news">
+        <h2>LATEST NEWS</h2>
+        <div class="news-item">
+            <img src="/9183577762f0c5b038a89792663a6528.jpg" alt="Naruto Collaboration">
+            <div class="news-content">
+                <p><strong>15/08/2025</strong> | COLLABORATION</p>
+                <h3>The Battle Reignites in Free Fire x NARUTO SHIPPUDEN Chapter 2: Ninja War — launching Jul 30 to Aug 31</h3>
+                <a href="#" class="view-all">VIEW ALL &gt;</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-item">
+            <img src="/64e8b129e5fb11a6f7bff1f48ac0516f.jpg" alt="Visual Upgrades">
+            <div class="feature-content">
+                <h3>Visual</h3>
+                <p>Visual upgrades to the maps and lobby provide players a unique and premium gaming experience right from the moment they enter the game.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <img src="/586a6c352ff1c2201c3df9e0b4a97fe4.jpg" alt="Gameplay Enhancements">
+            <div class="feature-content">
+                <h3>Gameplay</h3>
+                <p>New weapon animations and improved movements provide players smoother and more realistic experience.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <img src="/0f39aba9793f7452b872654c7b0fbbfc.jpg" alt="Choose Your Character">
+            <div class="feature-content">
+                <h3>CHOOSE YOUR CHARACTER</h3>
+                <p>Are you ready to BOOYAH with your favorite character?</p>
+                <a href="#" class="view-all">VIEW ALL CHARACTERS &gt;</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="special-event">
+        <img src="/cf9b593d36ccc126acf2ac5537537cbe.jpg" alt="Special Event">
+        <div class="event-content">
+            <h3>SPECIAL EVENT</h3>
+            <p>Experience thrilling big events like Winterlands and Anniversary Celebrations, plus epic collaborations with popular franchises and entertainment icons. Dive into immersive gameplay and enjoy rewards for endless fun and excitement.</p>
+        </div>
+    </section>
+
+    <section class="esports">
+        <h3>ESPORTS</h3>
+        <div class="esports-item">
+            <h4>Free Fire World Series</h4>
+            <p>Free Fire's most iconic offline tournament - Free Fire World Series (FFWS in short) is a global tournament held by Garena. It is an epic battle of the best teams in the world, a carnival for all Free Fire players.</p>
+            <a href="#" class="view-all">VIEW MORE &gt;</a>
+        </div>
+    </section>
+
+    <!-- New Section for Three Additional Videos -->
+    <section class="extra-videos">
+        <video controls>
+            <source src="/de4169f1e2c05bfe6f89a36bdc90cd8c.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <video controls>
+            <source src="/4d92db057bf4dee90580a09017f9f856.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <video controls>
+            <source src="/2779d0f1d56967a8a3fa59593f892b43 (1).mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Audio Element for Background Music -->
+    <div class="music-control">
+        <audio controls autoplay loop>
+            <source src="/IMPOSSIBLE 🍷 🗿 freefire @thegsbboys--4aa52d72e481d61796e6259a287866fb.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <footer>
+        <div class="footer-logo">G<a style="color: red;">arena</a></div>
+        <p>Copyright © Garena International. Trademarks belong to their respective owners. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | <a href="#">For Parents FAQ</a> | <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+</body>
+</html>
